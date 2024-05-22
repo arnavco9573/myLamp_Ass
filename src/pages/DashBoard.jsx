@@ -18,7 +18,7 @@ const Dashboard = () => {
   return (<>
     <Navbar />
     <div className="flex">
-      <Sidebar /> {/* Move the Sidebar component outside the flex container */}
+      <Sidebar /> 
       <div className="flex flex-col flex-1 bg-backGroundColor relative pl-64">
         {/* Dashboard content goes here */}
         <div className='bg-white mt-2 ml-2 mr-2 rounded-md max-h-fit flex space-x-7'>
@@ -28,7 +28,7 @@ const Dashboard = () => {
             </div>
           </div>
           <div className='w-[40%] mt-2 space-y-4'>
-            {/* Other content */}
+            
             <p className='text-sm bg-backGroundColor w-fit px-8 py-2 rounded-full text-blue-600 font-medium'>My Mentor</p>
             <p className='text-2xl font-semibold'>Mr.Ankit Awasthi</p>
             <div className='flex space-x-3 ml-4 text-md text-gray-500 font-medium'>
