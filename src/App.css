@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: #F0EAFD; */
+}
+
+.navbar-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Adjust z-index as needed */
+  background-color: white; /* Set background color as needed */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  width: 250px; /* Adjust the width as needed */
+  height: 100vh; /* Set the height to match the viewport height */
+  background-color: white; /* Set background color */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  display: inline-block;
+  
+}
+
+.sidebar-items {
+  overflow-y: auto;
+  max-height: calc(100vh);
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+  cursor: pointer;
+}
